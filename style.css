@@ -1,0 +1,53 @@
+/* Moedlo de CSS externo, definições das classes*/
+
+/* ".card", ".border" são nomes da classes que estamos adicionado dentro das tags nos arquivos
+pratic_css.html e pratica_css_outro_arquivo.html*/
+
+.card {
+    width: 500px; /* Define a largura do elemento como 500 pixels */
+    height: fit-content; /* Faz com que a altura se ajuste ao conteúdo dentro do elemento */
+    background-color: aliceblue; /* Define a cor de fundo*/
+    border-radius: 25px; /* Arredonda as bordas do elemento */
+    border: solid 2px navy;  /* Cria uma borda sólida de 2 pixels na cor azul marinho (navy) */
+    margin: 20px; /* Adiciona um espaço de 20 pixels ao redor do elemento para afastá-lo dos outros */
+    padding: 40px; /* Adiciona um espaçamento interno de 40 pixels, afastando o conteúdo das bordas */
+}
+
+.border {
+    border-radius: 20px; /* Aplica um arredondamento às bordas do elemento */
+}
+
+.title {
+    font-family: monospace; /* Define a fonte do texto */
+    font-size: 30px; /* Define o tamanho do texto*/
+    font-style: italic; /* Faz com que o texto fique em itálico */
+}
+
+.main-color {
+    color: navy; /* Define a cor do texto*/
+}
+
+.text {
+    font-family: Arial; /* Define a fonte do texto*/
+    font-size: 15px; /* Define o tamanho do texto*/
+}
+
+.icone1 {
+    width: 100px; /* Define a largura do ícone*/
+    height: 100px; /* Define a altura do ícone */
+    background-image: url('https://cdn-icons-png.flaticon.com/512/706/706830.png'); /* Define a imagem de fundo como um ícone específico */
+    background-size: cover; /* Faz com que a imagem cubra todo o espaço disponível sem distorcer */
+}
+
+.icone2 {
+    width: 100px;/* Define a largura do ícone*/
+    height: 100px;/* Define a altura do ícone */
+        background-image: url('https://cdn-icons-png.flaticon.com/256/3681/3681928.png');/* Define a imagem de fundo como um ícone específico */
+    background-size: cover; /* Faz com que a imagem cubra todo o espaço disponível sem distorcer */
+}
+
+/* .card: Define a estrutura principal dos cartões.*/
+/* .border: Adiciona bordas arredondadas.*/
+/* .title e .text: Estilizam os textos.*/
+/* .main-color: Define a cor azul-marinho para destacar trechos importantes.*/
+/* .icone1 e .icone2: Aplicam imagens como ícones.*/

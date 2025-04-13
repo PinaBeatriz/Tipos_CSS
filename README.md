@@ -8,8 +8,3 @@ Este projeto demonstra a utilização de CSS externo para estilizar elementos HT
 * Aplicação de estilos utilizando classes.
 * Personalização de elementos como cartões (cards), títulos, textos e ícones.
 * Utilização de bordas arredondadas, espaçamentos, cores e imagens de fundo.
-
-##  Estrutura do projeto
-* index.html  (Página principal com os cards)
-* pratica_css_outro_arquivo.html  (Outra página usando o mesmo CSS)
-* style.css  (Arquivo CSS externo contendo as regras de estilo)
